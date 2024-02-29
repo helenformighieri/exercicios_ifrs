@@ -14,11 +14,11 @@ public class Exercicio08 {
         int senha = 1234;
 
         System.out.println("Digite a senha correta: ");
-        int usuario = scanner.nextInt();
+        int usuarioSenha = scanner.nextInt();
 
-        while (usuario != senha){
+        while (usuarioSenha != senha){
             System.out.println("Senha incorreta, digite novamente.");
-            usuario = scanner.nextInt();
+            usuarioSenha = scanner.nextInt();
         }
 
         System.out.println("Acesso liberado");
